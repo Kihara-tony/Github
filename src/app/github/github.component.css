@@ -59,7 +59,7 @@ li{
   border-radius: 6px 6px 6px 6px;
   background-color: pink;
   width: 80%;
-  padding: 20px;
+  padding: 10px;
   float: right;
   margin-top:-100px;
 }
@@ -68,7 +68,7 @@ li{
   margin-left: 100px;
 }
 .instruction{
-  border:1px solid grey;
+  border:1px solid black;
   border-radius: 6px 6px 6px 6px;
   background-color: pink;
   width: 80%;
