@@ -26,7 +26,7 @@ input{
 }
 .btn{
   height: 10%;
-  background-color:green;
+  background-color:orange;
   margin-top:1%;
   margin-left: 1%;
 }
@@ -37,7 +37,7 @@ ul{
   margin-top: 40px;
 }
 li{
-  text-decoration: none;
+  text-decoration: underline;
 }
 .intro{
   border:1px solid grey;
