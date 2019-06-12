@@ -4,7 +4,6 @@ import { Directive, ElementRef } from '@angular/core';
   selector: '[appUsers]'
 })
 export class UsersDirective {
-  onClicks;
   onDoubleClicks;
   color(arg0: string): any {
     throw new Error("Method not implemented.");
