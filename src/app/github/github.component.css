@@ -68,7 +68,7 @@ li{
   margin-left: 100px;
 }
 .instruction{
-  border:1px solid black;
+  border:1px solid grey;
   border-radius: 6px 6px 6px 6px;
   background-color: pink;
   width: 80%;
@@ -87,6 +87,6 @@ li{
   margin-left: 50%;
 }
 #user{
-  float: right;
+  float: left;
   width:90%;
 }
