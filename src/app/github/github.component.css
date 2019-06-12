@@ -25,10 +25,10 @@ input{
   width: 50%;
 }
 .btn{
-  height: 20%;
+  height: 10%;
   background-color:orange;
   margin-top:1%;
-  margin-left: 1%;
+  margin-left: 2%;
 }
 ::placeholder{
   font-family: 'Courgette', cursive;
