@@ -4,7 +4,7 @@ import { Directive, ElementRef } from '@angular/core';
   selector: '[appUsers]'
 })
 export class UsersDirective {
-  color(arg0: string): any {
+  color(_arg: string): any {
     throw new Error("Method not implemented.");
   }
 
