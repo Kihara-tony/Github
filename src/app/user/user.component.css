@@ -21,12 +21,12 @@ input{
   float: right;
 }
 .avatar img{
-  border:30%
+  border:50%
 }
 .detail{
   float: right;
   border:1px solid grey;
-  background-color: pink;
+  background-color: blue;
   border-radius: 7px 7px 7px 7px;
   padding-left: 20px;
   padding:10px;
