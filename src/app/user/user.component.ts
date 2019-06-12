@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {Github} from '../github';
-import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {DetailsService} from './../details.service';
 import {Repos} from "../repos";
