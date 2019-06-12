@@ -1,0 +1,47 @@
+<div  id="head" class="row">
+  <h1>GITHUB SEARCH</h1>
+  <form  id="five" >
+    <div class="row">
+      <input class="form-control" type="text"  name="userName" [(ngModel)]="userName" placeholder="Enter you github user name here ...">
+      <button id="click" (click)="searchDetails()" class="btn btn-family"  type="submit"><i class="fa fa-search"></i></button>
+    </div>
+  </form>
+</div>
+<div class="login">
+  <h2>{{user.login}}</h2>
+</div>
+<div class="avatar">
+  <img src="{{user.avatar_url}}" alt="users pic">
+</div>
+
+<div class="detail">
+  <table>
+    <tr>
+      <td>NAME:</td>
+      <td>{{user.name}}</td>
+    </tr>
+    <tr>
+      <td>REPOSITORIES:</td>
+      <td>{{user.repos__url}}</td>
+      <td><a href="{{github.repo_url}}"></a></td>
+    </tr>
+    <tr>
+      <td>FOLLOWERS:</td>
+      <td>{{user.follower}}</td>
+    </tr>
+    <tr>
+      <td>FOLLOWING:</td>
+      <td>{{user.following}}</td>
+    </tr>
+    <tr>
+      <td>CREATED</td>
+      <td>{{user.created | dateCount}}</td>
+    </tr>
+    <tr>
+      <td>EMAIL:</td>
+      <td>{{user.email}}</td>
+    </tr>
+  </table>
+  <app-details></app-details>
+  <a href="{{user.repo_url}}">VIEW ON GITHUB</a>
+</div>

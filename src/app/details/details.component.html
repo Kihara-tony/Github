@@ -1,0 +1,16 @@
+<form>
+  <div *ngIf="detailsService.newRepository">
+    <p><strong>Repositories</strong></p>
+    <div *ngFor="let repos of detailsService.newRepository">
+      <div class="repo">
+        <p>{{repository.name}}</p>
+
+      </div>
+      <div class="description">
+        <p>Description<br>{{repository.description}}</p>
+      </div>
+
+    </div>
+
+  </div>
+</form>

@@ -1,0 +1,42 @@
+.btn{
+  height: 10%;
+  background-color:orange;
+  margin-top:1%;
+  margin-left: 1%;
+}
+h1{
+  padding-left: 1%;
+  font-family: 'Slabo 27px', serif;
+}
+#head{
+  background-color:pink;
+  margin-top:1%;
+  border-radius: 3px 3px 3px 3px;
+}
+input{
+  margin-left: 15%;
+  margin-top: 1%;
+}
+.details{
+  float: right;
+}
+.avatar img{
+  border:50%
+}
+.detail{
+  float: right;
+  border:1px solid grey;
+  background-color: pink;
+  border-radius: 7px 7px 7px 7px;
+  padding-left: 20px;
+  padding:10px;
+  margin-right: 20%;
+  width:50%;
+}
+#five{
+  float: right;
+  margin-right: 10%;
+}
+#click{
+  float: right;
+}
