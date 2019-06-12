@@ -1,6 +1,6 @@
 h1{
   padding-left: 1%;
-  font-family: 'Slabo 26px', serif;
+  font-family: 'Slabo 27px', serif;
 }
 h2{
   text-align: center;
@@ -28,7 +28,7 @@ input{
   height: 10%;
   background-color:orange;
   margin-top:1%;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 ::placeholder{
   font-family: 'Courgette', cursive;
