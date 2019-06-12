@@ -6,7 +6,7 @@ h2{
   text-align: center;
 }
 .n{
-  margin-left: 30%;
+  margin-left: 60%;
 }
 p{
   text-align: center;
@@ -87,6 +87,6 @@ li{
   margin-left: 50%;
 }
 #user{
-  float: left;
+  float: right;
   width:90%;
 }
