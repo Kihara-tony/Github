@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {DetailsService} from './../details.service';
-import {Github} from '../github';
+import { DetailsService } from './../details.service';
+import { Github } from '../github';
 import { Repos } from '../repos';
-import {FormsModule} from '@angular/forms'
+import { FormsModule } from '@angular/forms'
 @Component({
   selector: 'app-details',
   templateUrl: './details.component.html',
@@ -10,13 +10,13 @@ import {FormsModule} from '@angular/forms'
   providers: [DetailsService]
 })
 export class DetailsComponent implements OnInit {
-  user : Github;
-  repository:Repos;
-  newRepository:any;
-  private  userName:string;
+  user: Github;
+  repository: Repos;
+  newRepository: any;
+  userName: string;
 
-  constructor(private detailsService:DetailsService) { }
-  searchDetails(){
+  constructor(public detailsService: DetailsService) { }
+  searchDetails() {
     this.detailsService.updateDetails(this.userName);
     this.detailsService.getUserDetail();
     this.user = this.detailsService.user;
@@ -26,7 +26,7 @@ export class DetailsComponent implements OnInit {
     this.detailsService.getRepoDetail(this.newRepository);
     this.repository = this.detailsService.repository;
     this.detailsService.getUserDetail();
-    this.user=this.detailsService.user;
+    this.user = this.detailsService.user;
   }
 
   ngOnInit() {
