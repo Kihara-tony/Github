@@ -37,13 +37,13 @@ ul{
   margin-top: 40px;
 }
 li{
-  text-decoration: underline;
+  text-decoration: none;
 }
 .intro{
   border:1px solid grey;
   border-radius: 6px 6px 6px 6px;
   width: 9%;
-  padding:3px;
+  padding:4px;
   background-color: orange;
 }
 .instruct{
